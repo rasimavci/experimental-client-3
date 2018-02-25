@@ -1,0 +1,5 @@
+eslint iptal edilemedi
+
+https://www.npmjs.com/package/amap
+
+    var cloud = exports.cloud = platform(_constants.platforms.CLOUD),},

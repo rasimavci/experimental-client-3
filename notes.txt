@@ -1,0 +1,17 @@
+http://mint-ui.github.io/#!/en
+
+import store from '../store'
+
+  @component-namespace page {
+    @component toast {
+      @descendent wrapper {
+        padding: 0 20px;
+        position: absolute 50% * * *;
+        width: 100%;
+        transform: translateY(-50%);
+        button:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
