@@ -612,6 +612,5 @@ export default {
   /* background-color: #1abc9c; */
   color: white !important;
 }
-.rasim-button{
-}
+
 </style>
