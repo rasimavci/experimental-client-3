@@ -1,0 +1,20 @@
+
+.rasim-button{
+  border: 0px;
+  border-radius: 0px !important;
+  background: none;
+  background-color: #fff !important;
+}
+
+.icon_call_outline_blue {
+  display: block;
+  text-indent: -9999px;
+  width: 90%;
+  height: 90%;
+  background: url('./icons/call/call_outline_blue.svg');
+  background-size: 90% 90%;
+  background-repeat: no-repeat;
+  border: 0px;
+  border-radius: 0px !important;
+  background-color: #fff;
+}

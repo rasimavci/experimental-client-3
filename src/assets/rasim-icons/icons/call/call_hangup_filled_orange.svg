@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:none;stroke:#E06D47;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#E06D47;}
+]]>
+</style>
+<g id="hangup">
+</g>
+<g>
+	<path class="st1" d="M43,24.4h-6c-2.8,0-5-2.2-5-5v-1.1c-5.3-0.5-10.7-0.5-16,0v1.1c0,2.8-2.2,5-5,5H5c-2.8,0-5-2.2-5-5v-3
+		c0-3.2,2.5-6.3,5.8-7c12-2.4,24.4-2.4,36.4,0c3.3,0.7,5.8,3.7,5.8,7v3C48,22.2,45.8,24.4,43,24.4z"/>
+	<path class="st1" d="M32,27H16l8,13L32,27L32,27z"/>
+</g>
+<g id="more_filled">
+</g>
+<g id="more">
+</g>
+<g id="hamburger">
+</g>
+<g id="hamburger_filled">
+</g>
+<g id="information">
+</g>
+<g id="information_filled">
+</g>
+<g id="help">
+</g>
+<g id="help_filled">
+</g>
+<g id="backspace">
+</g>
+</svg>

@@ -10,13 +10,13 @@ import 'mint-ui/lib/style.css'
 import VueResource from 'vue-resource'
 import VueTouch from 'vue-touch'
 import _glob from './components/methodCommon.vue'
+import './assets/rasim-icons/rasim.css'
 Vue.config.productionTip = false
 Vue.use(VueResource)
 Vue.use(MintUI)
 Vue.use(ElementUI)
 Vue.use(VueTouch, {name: 'v-touch'})
 Vue.prototype.glob = _glob
-// 创建高德地图
 let createMap = () => {
   const promise = new Promise(function (resolve, reject) {
     let script = document.createElement('script')

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
+	 height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g id="Filled_Icon" display="none">
+	<g display="inline">
+		<path d="M23,6.513V16.5c0,1.93-1.57,3.5-3.5,3.5H4.513c0.456,0.604,1.174,1,1.987,1h15c1.378,0,2.5-1.121,2.5-2.5v-10
+			C24,7.687,23.604,6.97,23,6.513z"/>
+		<path d="M22,16.5v-10c0-0.718-0.326-1.473-1-1.987V14.5v2c0,0.827-0.673,1.5-1.5,1.5H2.513c0.481,0.642,1.238,1,1.987,1h15
+			C20.878,19,22,17.879,22,16.5z"/>
+		<path d="M17.5,17c1.378,0,2.5-1.121,2.5-2.5V7H0v7.5C0,15.879,1.121,17,2.5,17H17.5z"/>
+		<path d="M20,6V4.5C20,3.121,18.878,2,17.5,2h-15C1.121,2,0,3.121,0,4.5V6H20z M3.5,5C3.224,5,3,4.776,3,4.5S3.224,4,3.5,4
+			S4,4.224,4,4.5S3.776,5,3.5,5z M5.5,5C5.224,5,5,4.776,5,4.5S5.224,4,5.5,4S6,4.224,6,4.5S5.776,5,5.5,5z M7.5,5
+			C7.224,5,7,4.776,7,4.5S7.224,4,7.5,4S8,4.224,8,4.5S7.776,5,7.5,5z"/>
+	</g>
+</g>
+<g id="Outline_Icons">
+	<g>
+		
+			<line fill="none" stroke="#FAFAFA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="0.5" y1="6.5" x2="19.5" y2="6.5"/>
+		<g>
+			<g>
+				<path stroke="#FAFAFA" d="M3.5,4C3.224,4,3,4.224,3,4.5S3.224,5,3.5,5S4,4.776,4,4.5S3.776,4,3.5,4L3.5,4z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path stroke="#FAFAFA" d="M5.5,4C5.224,4,5,4.224,5,4.5S5.224,5,5.5,5S6,4.776,6,4.5S5.776,4,5.5,4L5.5,4z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path stroke="#FAFAFA" d="M7.5,4C7.224,4,7,4.224,7,4.5S7.224,5,7.5,5S8,4.776,8,4.5S7.776,4,7.5,4L7.5,4z"/>
+			</g>
+		</g>
+		<path fill="none" stroke="#FAFAFA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M19.5,14.5
+			c0,1.104-0.895,2-2,2h-15c-1.104,0-2-0.896-2-2v-10c0-1.104,0.896-2,2-2h15c1.105,0,2,0.896,2,2V14.5z"/>
+		<path fill="none" stroke="#FAFAFA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M19.5,4.5
+			c1.105,0,2,0.896,2,2v10c0,1.104-0.895,2-2,2h-15c-1.104,0-2-0.896-2-2"/>
+		<path fill="none" stroke="#FAFAFA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M21.5,6.5
+			c1.105,0,2,0.896,2,2v10c0,1.104-0.895,2-2,2h-15c-1.104,0-2-0.896-2-2"/>
+	</g>
+</g>
+</svg>

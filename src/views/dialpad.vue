@@ -22,11 +22,8 @@
           {{activeCallState}}
         </h3>
 
-        <img class='media-object pull-center' :src='user.photoUrl'>
-        </img>
+        <img class='media-object pull-center' :src='user.photoUrl'/>
       </div>
-
-      <!-- <input v-model='callee' class='input-number' value='' placeholder='Username or Number'> -->
       <div class='keypad'>
         <div class='keypad-container' v-show='!activeCallExist  && !activeCallRinging'>
           <div>
@@ -47,21 +44,19 @@
               </div>
             </button>
           </div>
-<div class="btn-group">
           <div>
-            <div @click='press(4)'>
+            <button @click='press(4)'>
               <div class='keypad-button-number'>4</div>
               <div class='keypad-button-text'>
                 GHI
               </div>
-            </div>
-            <div @click='press(5)'>
+            </button>
+            <button @click='press(5)'>
               <div class='keypad-button-number'>5</div>
               <div class='keypad-button-text'>
                 JKL
               </div>
-            </div>
-</div>
+            </button>
             <button class='button' @click='press(6)'>
               <div class='keypad-button-number'>6</div>
               <div class='keypad-button-text'>
@@ -135,8 +130,8 @@
           <i class='material-icons'>{{!activeCall? 'dialpad' : 'not interested' }}</i>
         </button>
 
-        <button class='button' @click='makeCall()' v-show='!activeCallRinging'>
-          <i class='material-icons'>{{!activeCallExist? 'local_phone' : 'phone_in_talk' }}</i>
+        <button class='rasim-button' @click='makeCall()' v-show='!activeCallRinging'>
+          <i class='icon_call_outline_blue'></i>
         </button>
 
         <button class='button' @click='toggleVideo()' v-show='!activeCallRinging'>
@@ -506,9 +501,6 @@ export default {
   margin: 5px 0;
 }
 
-.keypad-container div button:hover {
-  background-color: #1E90FF;
-}
 
 .keypad-button-number {
   font-size: 28px;
@@ -602,5 +594,24 @@ export default {
 .backspace-button {
   background: white;
   border: 0px;
+}
+.keypad-container button{
+  border: none !important;
+  border-radius: 0px !important;
+  color: #1E90FF !important;
+}
+
+.keypad-container button div{
+  color: #1E90FF !important;
+}
+
+.keypad-container button:hover {
+  background-color: #1abc9c;
+}
+.keypad-container button:hover div {
+  /* background-color: #1abc9c; */
+  color: white !important;
+}
+.rasim-button{
 }
 </style>
