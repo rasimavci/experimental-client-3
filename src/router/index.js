@@ -22,6 +22,21 @@ export default new VueRouter({
         require(['../views/index.vue'], resolve)
       }
     }, {
+      path: '/addcontact',
+      component: function (resolve) {
+        require(['../views/addcontact.vue'], resolve)
+      }
+    }, {
+      path: '/addressbook',
+      component: function (resolve) {
+        require(['../views/addressbook.vue'], resolve)
+      }
+    }, {
+      path: '/popup',
+      component: function (resolve) {
+        require(['../views/popup.vue'], resolve)
+      }
+    }, {
       path: '/city',
       component: function (resolve) {
         require(['../views/city.vue'], resolve)
@@ -56,6 +71,11 @@ export default new VueRouter({
       path: '/upload',
       component: function (resolve) {
         require(['../views/upload.vue'], resolve)
+      }
+    }, {
+      path: '/dialpad',
+      component: function (resolve) {
+        require(['../views/dialpad.vue'], resolve)
       }
     }, {
       path: '/call',

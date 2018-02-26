@@ -73,10 +73,6 @@
 <script>
 const catalog = [
   {
-    url: '#/call',
-    text: 'Call Screen'
-  },
-  {
     url: '#/cityMint',
     text: '1 the city choose'
   },

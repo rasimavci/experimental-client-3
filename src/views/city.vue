@@ -1,7 +1,7 @@
 <template>
     <div id="">
       <!--头部-->
-      <mt-header title="City list">
+      <mt-header title="Contact list">
         <router-link to="/index" slot="left">
           <mt-button icon="back">return</mt-button>
         </router-link>
@@ -55,29 +55,29 @@
     },
     created: function () {
       this.results.forEach(function (key) {
-        console.log(key.firstName)
+        console.log(key.firstName + ' ' + key.lastName)
       })
       console.log('results ' + this.results)
-      let provinces = [
-        {
-          'citys': [
-            {
-              'citysName': 'Antalya'
-            },
-            {
-              'citysName': 'Ankara'
-            }
-          ],
-          'provinceName': 'Ic Anadolu'
-        }
-      ]
+      // let provinces = [
+      //   {
+      //     'citys': [
+      //       {
+      //         'citysName': 'Antalya'
+      //       },
+      //       {
+      //         'citysName': 'Ankara'
+      //       }
+      //     ],
+      //     'provinceName': 'Ic Anadolu'
+      //   }
+      // ]
       countPage++
       if (countPage < 2) {
         this.$http.get('./static/city.json').then(response => {
           // get status
-          console.log(provinces)
+        //  console.log(provinces)
           let cityLists = this.results // provinces // response.body.provinces
-          console.log(cityLists)
+
          // for (let i in cityList) {
          //   cityLists = cityList[i].firstName
           for (let j in cityLists) {
@@ -152,7 +152,7 @@
         this.showCity = showCity
         if (showCity.length === 0) {
           let _showCityContent = document.getElementById('showCityContent')
-          _showCityContent.innerText = '查询不到结果'
+          _showCityContent.innerText = 'No results can be found'
           _showCityContent.setAttribute('class', 'tipShow')
         } else {
           document.getElementById('showCityContent').innerText = ''

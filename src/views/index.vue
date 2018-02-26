@@ -38,11 +38,24 @@
       </div>
 
       <mt-tabbar v-model="selected" fixed>
+
+        <button class="button" @click="endCall()" v-show="activeCallRinging">
+          <i class="material-icons">{{!activeCall? "phone_in_talk" : "not interested" }}</i>
+          hey
+        </button>
+
+        <mt-tab-item id="table of Contents1 ">
+<i class="indexicon icon-message-box"></i>
+Chat
+        </mt-tab-item>
+
+
+
         <mt-tab-item id="table of Contents">
           <i class="iconfont">&#xe6c2;</i>
           table of Contents
         </mt-tab-item>
-        <mt-tab-item id="Tutorial">
+        <mt-tab-item id="Tutorial" icon="back">
           <i class="iconfont">&#xe606;</i>
           Tutorial
         </mt-tab-item>
@@ -60,6 +73,14 @@
 </template>
 <script>
 const catalog = [
+  {
+    url: '#/dialpad',
+    text: 'Dialpad'
+  },
+  {
+    url: '#/call',
+    text: 'Call'
+  },
   {
     url: '#/city',
     text: 'Contacts'
@@ -82,7 +103,7 @@ const catalog = [
   },
   {
     url: '#/upload',
-    text: '5, Image upload'
+    text: 'Rich Messaging'
   },
   {
     url: '#/touch',
@@ -91,6 +112,18 @@ const catalog = [
   {
     url: '#/lcalendar',
     text: '7. Time selector'
+  },
+  {
+    url: '#/popup',
+    text: '7. Pop up'
+  },
+  {
+    url: '#/addressbook',
+    text: 'Global Addressbook'
+  },
+  {
+    url: '#/addcontact',
+    text: 'Add Contact'
   }
 ]
 const course = [
@@ -114,6 +147,7 @@ const course = [
 export default {
   data () {
     return {
+      activeCall: true,
       selected: 'table of Contents',
       catalogs: catalog,
       courses: course

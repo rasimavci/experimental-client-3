@@ -9,7 +9,7 @@
 
    <div class="page-range">
     <h1 class="page-title">Range</h1>
-    <p class="page-range-header">基本功能</p>
+    <p class="page-range-header">Basic Skills</p>
     <mt-cell v-for="item in cells1" :title="item.title" :label="'value:' + item.value">
       <mt-range v-model="item.value">
         <div slot="start" v-if="item.start">{{ item.start }}</div>
@@ -98,5 +98,25 @@ export default {
 
 </script>
 <style>
-
+  @component-namespace page {
+    @component range {
+      .mt-range {
+        width: 100%;
+      }
+      .mint-cell-value {
+        flex: 2.5;
+        position: relative;
+      }
+      @descendent header {
+        margin-bottom: 8px;
+        padding-left: 15px;
+        &:not(:first-of-type) {
+          margin-top: 28px;
+        }
+      }
+      @descendent desc {
+        padding: 5px 0 5px 5%;
+      }
+    }
+  }
 </style>
