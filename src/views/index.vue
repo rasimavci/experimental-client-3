@@ -2,7 +2,7 @@
   <div id="index">
     <!--头部-->
     <div id="uploader"></div>
-    <mt-header title="Home">
+    <mt-header title="Dialpad">
       <router-link to="/" slot="left">
         <mt-button icon="back">return</mt-button>
       </router-link>
@@ -45,11 +45,9 @@
         </button>
 
         <mt-tab-item id="table of Contents1 ">
-<i class="indexicon icon-message-box"></i>
-Chat
+          <i class="indexicon icon-message-box"></i>
+          Chat
         </mt-tab-item>
-
-
 
         <mt-tab-item id="table of Contents">
           <i class="iconfont">&#xe6c2;</i>
